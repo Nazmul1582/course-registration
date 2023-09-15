@@ -1,4 +1,4 @@
-const Course = ({course}) => {
+const Course = ({course, handleSelectCourse}) => {
     const {image, title, description, price, credit} = course;
 
     return (
@@ -25,7 +25,7 @@ const Course = ({course}) => {
                     <p>Credit: {credit}hr</p>
                 </div>
             </div>
-            <button className="bg-[#2F80ED] w-full p-2 text-white rounded-lg border border-[#2F80ED] mt-6">Select</button>
+            <button onClick={() => handleSelectCourse(course)} className="bg-[#2F80ED] w-full p-2 text-white rounded-lg border border-[#2F80ED] mt-6">Select</button>
         </div>
     );
 };
