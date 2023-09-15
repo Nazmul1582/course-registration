@@ -1,10 +1,8 @@
-import './App.css'
-
 function App() {
 
   return (
     <>
-      <h1>React Course Registration</h1>
+      <h1 className="text-5xl">React Course Registration</h1>
     </>
   )
 }
