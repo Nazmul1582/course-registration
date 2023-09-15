@@ -4,7 +4,7 @@
         "title": "Web Development Bootcamp",
         "description": "Join our Web Development Bootcamp and become a proficient web developer. This intensive 60-hour course covers HTML, CSS, JavaScript, responsive web design, and popular front-end libraries like Bootstrap. You'll also delve into server-side programming with Node.js and Express. By the end, you'll have the skills to build modern web applications and websites.",
         "price": 150,
-        "hours": 6,
+        "credit": 6,
         "image": "https://i.ibb.co/MZsPCd9/programming-background-collage.jpg"
     },
     {
@@ -12,7 +12,7 @@
         "title": "Java Programming Fundamentals",
         "description": "Master the Java programming language with our Java Programming Fundamentals course. Whether you're a beginner or have some coding experience, this 30-hour course will teach you the core concepts of Java, including data types, control structures, and object-oriented programming. Start your journey towards becoming a skilled Java developer today.",
         "price": 80,
-        "hours": 3,
+        "credit": 3,
         "image": "https://i.ibb.co/m0k8JkH/html-css-collage-concept-with-person.jpg"
     },
     {
@@ -20,7 +20,7 @@
         "title": "Machine Learning with Python",
         "description": "Dive into the exciting world of machine learning and data science using Python. In this 50-hour course, you'll explore topics like supervised and unsupervised learning, data preprocessing, and model evaluation. Hands-on projects and real-world datasets will help you apply your knowledge effectively. Get ready to embark on your machine learning journey!",
         "price": 130,
-        "hours": 5,
+        "credit": 5,
         "image": "https://i.ibb.co/kHzKGvt/machine-learning.jpg"
     },
     {
@@ -28,7 +28,7 @@
         "title": "Database Management",
         "description": "Master the art of database management with our comprehensive course. Learn about database design, SQL, NoSQL databases, and data modeling. This 45-hour course covers everything you need to know to become a skilled database administrator or developer.",
         "price": 120,
-        "hours": 4,
+        "credit": 4,
         "image": "https://i.ibb.co/k3Q4Yrb/database.jpg"
     },
     {
@@ -36,7 +36,7 @@
         "title": "Full-Stack JavaScript Developer",
         "description": "Become a Full-Stack JavaScript Developer with our comprehensive 70-hour course. You'll learn front-end development with React, back-end development with Node.js, and database design with MongoDB. Real-world projects and continuous assessments will prepare you for a successful career in web development.",
         "price": 160,
-        "hours": 7,
+        "credit": 7,
         "image": "https://i.ibb.co/K7mPsV2/programming-codes.jpg"
     },
     {
@@ -44,7 +44,7 @@
         "title": "Ethical Hacking and Cybersecurity",
         "description": "Join the ranks of ethical hackers and cybersecurity experts with our 80-hour course. You'll learn the latest techniques to secure systems, perform penetration testing, and defend against cyber threats. Hands-on labs and simulations will sharpen your skills. Protect the digital world from vulnerabilities!",
         "price": 180,
-        "hours": 8,
+        "credit": 8,
         "image": "https://i.ibb.co/zRCc1N9/ethical-hacking.jpg"
     },
     {
@@ -52,7 +52,7 @@
         "title": "Data Structures and Algorithms",
         "description": "Master data structures and algorithms with our comprehensive course. This 60-hour course covers essential data structures like arrays, linked lists, trees, and graph algorithms. Strengthen your problem-solving skills and prepare for technical interviews and competitive programming competitions.",
         "price": 130,
-        "hours": 6,
+        "credit": 6,
         "image": "https://i.ibb.co/1XjfH6d/data-structure-and-algorithoms.jpg"
     },
     {
@@ -60,7 +60,7 @@
         "title": "Problem Solving",
         "description": "Develop your problem-solving skills with our Problem Solving course. This course covers various problem-solving techniques and strategies that are essential for success in programming and software development. With 25 hours of content, you'll tackle challenging problems and enhance your problem-solving abilities.",
         "price": 70,
-        "hours": 2,
+        "credit": 2,
         "image": "https://i.ibb.co/X801CGR/problem-solving.jpg"
     },
     {
@@ -68,7 +68,7 @@
         "title": "Software Engineering",
         "description": "Master the art of software engineering with our comprehensive course. Learn software development methodologies, design patterns, and best practices in this 100-hour course. Gain the skills needed to plan, develop, and maintain high-quality software applications. Elevate your software engineering career today!",
         "price": 250,
-        "hours": 10,
+        "credit": 10,
         "image": "https://i.ibb.co/wh4j1sg/software-engineering.jpg"
     }
 ]
