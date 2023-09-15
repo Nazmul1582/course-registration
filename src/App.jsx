@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Header></Header>
-      <main className="container mx-auto grid grid-cols-[3fr_1fr]">
+      <main className="container mx-auto grid grid-cols-[3fr_1fr] gap-6">
         <Courses></Courses>
         <Cart></Cart>
       </main>
