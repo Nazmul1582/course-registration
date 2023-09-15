@@ -7,6 +7,10 @@ function App() {
   const [selectedCourse, setSelectedCourse] = useState([])
 
   const handleSelectCourse = course => {
+    if(selectedCourse.includes(course)){
+      alert(`${course.title} already selected!`)
+      return;
+    }
     const newSelectedCourse = [...selectedCourse, course]
     setSelectedCourse(newSelectedCourse);
   }
