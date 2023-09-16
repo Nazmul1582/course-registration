@@ -11,6 +11,7 @@ function App() {
   const [toast, setToast] = useState("")
 
   const handleSelectCourse = course => {
+    setToast("");
     if(selectedCourse.includes(course)){
       setToast(`${course.title} already selected!`)
       return;
