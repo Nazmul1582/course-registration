@@ -26,7 +26,7 @@ function App() {
       const newSelectedCourse = [...selectedCourse, course]
       setSelectedCourse(newSelectedCourse);
     }else{
-      setToast(`Sorry! Your credit hour remaining only ${creditRemaining}`)
+      setToast(`Sorry! Credit Hour Remaining can't be less than 0 and Total Credit Hour can't be more than 20`)
     }
   }
 
