@@ -7,6 +7,7 @@ function App() {
   const [selectedCourse, setSelectedCourse] = useState([])
   const [creditRemaining, setCreditRemaining] = useState(20);
   const [totalCredit, setTotalCredit] = useState(0)
+  const [totalPrice, setTotalPrice] = useState(0)
 
   const handleSelectCourse = course => {
     if(selectedCourse.includes(course)){
@@ -15,9 +16,10 @@ function App() {
     }
     
     if(creditRemaining - course.credit >= 0){
-      // credit remaining, total credit
+      // credit remaining, total credit and total price
       setCreditRemaining(creditRemaining - course.credit)
       setTotalCredit(totalCredit + course.credit)
+      setTotalPrice(totalPrice + course.price)
 
       // selected course
       const newSelectedCourse = [...selectedCourse, course]
@@ -36,6 +38,7 @@ function App() {
           selectedCourse={selectedCourse}
           creditRemaining={creditRemaining}
           totalCredit={totalCredit}
+          totalPrice={totalPrice}
         ></Cart>
       </main>
     </>

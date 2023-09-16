@@ -1,4 +1,4 @@
-const Cart = ({selectedCourse, creditRemaining, totalCredit}) => {
+const Cart = ({selectedCourse, creditRemaining, totalCredit, totalPrice}) => {
 
 
     return (
@@ -13,7 +13,7 @@ const Cart = ({selectedCourse, creditRemaining, totalCredit}) => {
                     }
                 </ol>
                 <p className="py-4 border-b font-medium">Total Credit Hour: {totalCredit}</p>
-                <p className="py-4 font-semibold">Total Price: 500 USD</p>
+                <p className="py-4 font-semibold">Total Price: {totalPrice} USD</p>
             </div>
         </div>
     );
