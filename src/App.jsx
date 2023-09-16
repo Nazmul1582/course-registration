@@ -13,11 +13,18 @@ function App() {
       alert(`${course.title} already selected!`)
       return;
     }
-    const newSelectedCourse = [...selectedCourse, course]
-    setSelectedCourse(newSelectedCourse);
+    
+    if(creditRemaining - course.credit >= 0){
+      // credit remaining, total credit
+      setCreditRemaining(creditRemaining - course.credit)
+      setTotalCredit(totalCredit + course.credit)
 
-    setCreditRemaining(creditRemaining - course.credit)
-    setTotalCredit(totalCredit + course.credit)
+      // selected course
+      const newSelectedCourse = [...selectedCourse, course]
+      setSelectedCourse(newSelectedCourse);
+    }else{
+      alert(`Your credit hour remaining only ${creditRemaining}`)
+    }
   }
 
   return (
